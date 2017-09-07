@@ -32,7 +32,7 @@ def parse_args():
     parser.add_argument(
         "-c",
         "--crust",
-        help="The crust to order.",
+        help="The type of crust to order.",
         required=True)
     parser.add_argument(
         "-t",
